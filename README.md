@@ -1,7 +1,7 @@
 <h1>CharmBench: A <em>Cha</em>llenging <em>R</em>easoning and <em>M</em>ultimodal <em>Bench</em>mark for Large Vision-Language Models</h1>
 
 
-If you use our datasets or codes, please consider citing us:
+If you use our datasets or codes, please consider starring our repo and citing using the following bib:
 
 ```bibtex
 @misc{wu2025CharmBench,
