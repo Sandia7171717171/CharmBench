@@ -105,7 +105,7 @@ For detailed instructions, please refer to https://platform.openai.com/docs/over
 ```
 vllm serve Qwen/Qwen2.5-VL-7B-Instruct --port 8000 --host 0.0.0.0 --dtype bfloat16 --limit-mm-per-prompt image=1
 ```
-Then use run_models_all.ipynb/run_qwen_reasoning functions for deployed Qwen model.
+Then use run_models_all.ipynb/run_qwen_reasoning functions for deploying Qwen model.
 
 Refer to https://github.com/QwenLM/Qwen2.5-VL for more detailed instructions.
 
@@ -117,3 +117,5 @@ Refer to https://huggingface.co/meta-llama/Llama-3.2-11B-Vision for detailed ins
 ## Licenses of Datasets
 The evaluation code is licensed under Apache-2.0 license. All data sourced from [33IQ](https://www.33iq.com/)—except for Index 92617—is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). The authors do not have the copyright for the rest questions.
 
+## Acknowledgement
+We employ [vllm](https://github.com/vllm-project/vllm) to deploy Qwen2.5-VL-series models. And use the official code on [HuggingFace](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision) to deploy LLama-3.2-11b-vision-instruct. Thanks for their great work!
