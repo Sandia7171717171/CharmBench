@@ -39,8 +39,3 @@ ANSWER: <A/B/C/D>
 
 # Any answer not following this format will be considered invalid.
 # """
-
-
-Prompt1="""Please read the following multiple-choice questions and provide the most likely correct answer based on the options given."""
-Prompt2=""" You are an expert in {subject}. Below is a series of example questions (with answers) about {subject} for demonstration. You will be given a question at the end, after the examples, for you to answer. Think it step by step, and give your answer at the end."""
-Prompt3="""You are a helpful assistant. Below is a series of example questions (with answers) about {subject} for demonstration. You will be given a question at the end, after the examples, for you to answer. First give step-by-step reasoning about how to solve the question. Then output the answer."""
