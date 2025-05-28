@@ -15,9 +15,9 @@ If you use our datasets or codes, please consider citing us:
 
 ## TODO
 - [x] **Release the Evaluation code and the data of CharmBench-Preview**  
-- [ ] **Label more images and release the full version of CharmBench.**
-- [ ] **Design and include more metrics, including but not limited to, reasoning fidelity.**
-- [ ] **📃Upload a version to ArXiv**  
+- [ ] **Label more images and release the full version, CharmBench.**
+- [ ] **Design and include more metrics, including but not limited to, reasoning fidelity in CharmBench.**
+- [ ] **Upload a paper of CharmBench to ArXiv📃**  
 
 
 
