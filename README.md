@@ -81,9 +81,12 @@ We then extract the predicted answer from the raw natural language responses gen
 From the above figure, we observe that:
 
 - **Contemporary LVLMs perform poorly on CharmBench-Preview.** GPT-4.1-Mini achieves the best results when combined with CoT techniques. o4-Mini has the best performance when models are required to directly give the answers.
-- **Closed-source models perform better than open-source models.**
-- **Multimodal Large Reasoning Models (MLRM) significantly outperform general-purpose LVLMs**, though they still struggle to solve these problems.
-- **Impact of CoT**. Most models have similar or much better performance with CoT prompting. For example, the accuracy of GPT-4-1-mini increased from 0.44 to 0.56. However, some models' performance even drops when using CoT prompting.
+- **Closed-source models perform better than open-source models.** o4-Mini and GPT-4.1-Mini achieve the best performance using the non-CoT and CoT promptings, respectively, while open-source models show a significant performance gap on CharmBench-Preview.
+- **Multimodal Large Reasoning Models (MLRM) with multimodal reasoning ability generaly outperform general-purpose LVLMs**, though they still struggle to solve these problems. OpenAI-o4-Mini achieves state-of-the-art performance in both non-CoT and CoT settings, highlighting the importance of strong multimodal reasoning for capturing fine-grained details in both visual and textual inputs and for enabling deeper understanding.
+- **Impact of CoT**. Most models have similar or much better performance with CoT prompting. For example, the accuracy of GPT-4-1-mini increased from 0.44 to 0.56. However, some models' performance even drops when using CoT prompting. It is interesting to see some models achieve worse perfomrance using CoT prompting.
+- **Impact of model parameters scaling**. Among open-source models, Qwen2.5-VL-3B achieves the highest accuracy (0.54) without CoT prompting. Further investigation is needed to understand why smaller models sometimes outperform larger ones in this setting.
+
+
 
 ## Instructions for Running the Codes
 ### For OpenAI models
