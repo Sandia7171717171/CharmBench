@@ -91,6 +91,8 @@ From the above figure, we observe that:
 
 
 ## Instructions for Running the Codes
+* To run CoT experiments: set parameter system_prompt to SYSTEM_PROMPT_CoT;
+* To run experiments without CoT: set parameter system_prompt to SYSTEM_PROMPT_no_CoT.
 ### For OpenAI models
 **o4-mini**: refer to run_models_all.ipynb/run_o4mini_vision_reasoning functions.
 
