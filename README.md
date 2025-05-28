@@ -119,3 +119,6 @@ The evaluation code is licensed under Apache-2.0 license. All data sourced from 
 
 ## Acknowledgement
 We employ [vllm](https://github.com/vllm-project/vllm) to deploy Qwen2.5-VL-series models. And use the official code on [HuggingFace](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision) to deploy LLama-3.2-11b-vision-instruct. Thanks for their great work!
+
+## Star History
+![Star History Chart](https://api.star-history.com/svg?repos=Wu-Zongyu/CharmBench&type=Date)
